@@ -1,11 +1,10 @@
-{ pkgs, ... }:
-{
-#  extraPlugins = [ pkgs.vimPlugins.nvim-metals ];
+{pkgs, ...}: {
+  #  extraPlugins = [ pkgs.vimPlugins.nvim-metals ];
 
-#  plugins.lsp.servers.metals.enable = true;
+  #  plugins.lsp.servers.metals.enable = true;
 
-#  extraPackages = [
-#    pkgs.metals
-#    pkgs.scalafmt
-#  ];
+  #  extraPackages = [
+  #    pkgs.metals
+  #    pkgs.scalafmt
+  #  ];
 }
