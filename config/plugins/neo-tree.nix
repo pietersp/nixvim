@@ -21,7 +21,6 @@
         desc = "NeoTree Toggle";
       };
     }
-
   ];
 
 
