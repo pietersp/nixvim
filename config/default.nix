@@ -36,6 +36,12 @@
     number = true;
     relativenumber = true;
 
+    # Tab handling
+    tabstop = 2;
+    softtabstop = 2;
+    shiftwidth = 2;
+    expandtab = true;
+
     # Enable mouse mode, can be useful for resizing splits for example!
     mouse = "a";
 
@@ -176,9 +182,4 @@
     end
   '';
 
-  # The line beneath this is called `modeline`. See `:help modeline`
-  # https://nix-community.github.io/nixvim/NeovimOptions/index.html?highlight=extraplugins#extraconfigluapost
-  extraConfigLuaPost = ''
-    -- vim: ts=2 sts=2 sw=2 et
-  '';
 }
