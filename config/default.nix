@@ -8,6 +8,7 @@
     ./plugins/metals.nix
     ./plugins/mini.nix
     ./plugins/neo-tree.nix
+    ./plugins/nixd.nix
     ./plugins/nvim-cmp.nix
     ./plugins/telescope.nix
     ./plugins/todo-comments.nix
@@ -25,6 +26,7 @@
   };
 
   opts = {
+    winborder = "rounded";
     termguicolors = true;
 
     # [[ Setting options ]]
@@ -107,6 +109,8 @@
   };
 
   plugins = {
+    nix.enable = true;
+
     # Adds icons for plugins to utilize in ut
     web-devicons.enable = true;
 

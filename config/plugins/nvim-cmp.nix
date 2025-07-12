@@ -86,6 +86,17 @@
         #    https://github.com/L3MON4D3/LuaSnip?tab=readme-ov-file#keymaps
       };
 
+      window = {
+        completion = {
+          border = "rounded";
+          winhighlight = "Normal:CmpPmenu,FloatBorder:FloatBorder,CursorLine:PmenuSel,Search:None";
+        };
+        documentation = {
+          border = "rounded";
+          winhighlight = "Normal:CmpPmenu,FloatBorder:FloatBorder,CursorLine:PmenuSel,Search:None";
+        };
+      };  
+
       # Dependencies
       #
       # WARNING: If plugins.cmp.autoEnableSources Nixivm will automatically enable the
