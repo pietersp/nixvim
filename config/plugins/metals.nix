@@ -1,11 +1,10 @@
 {pkgs, ...}: {
-
   extraPackages = [
     pkgs.metals
     pkgs.scalafmt
   ];
 
-  extraPlugins = [ pkgs.vimPlugins.nvim-metals ];
+  extraPlugins = [pkgs.vimPlugins.nvim-metals];
   extraConfigLua = ''
     local metals = require ('metals');
     local metals_config = vim.tbl_deep_extend("force", metals.bare_config(), {
@@ -15,23 +14,23 @@
         end
         require("which-key").add({
           {
-            "<leader>cm", 
+            "<leader>cm",
             function()
-              require("telescope").extensions.metals.commands() 
+              require("telescope").extensions.metals.commands()
             end,
-            desc = "Metals commands", 
+            desc = "Metals commands",
             mode = "n"
           },
           {
-            "<leader>cc", 
+            "<leader>cc",
             function()
-              require("metals").compile_cascade() 
+              require("metals").compile_cascade()
             end,
-            desc = "Metals Compile Cascade", 
+            desc = "Metals Compile Cascade",
             mode = "n"
           },
         })
-      end, 
+      end,
       init_options = { statusBarProvider = "off", },
       settings = {
         showImplicitArguments = true,

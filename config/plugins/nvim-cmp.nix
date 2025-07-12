@@ -95,7 +95,7 @@
           border = "rounded";
           winhighlight = "Normal:CmpPmenu,FloatBorder:FloatBorder,CursorLine:PmenuSel,Search:None";
         };
-      };  
+      };
 
       # Dependencies
       #
