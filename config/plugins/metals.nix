@@ -2,6 +2,7 @@
   extraPackages = [
     pkgs.metals
     pkgs.scalafmt
+    pkgs.coursier
   ];
 
   extraPlugins = [pkgs.vimPlugins.nvim-metals];

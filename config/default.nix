@@ -5,6 +5,7 @@
     ./plugins/conform.nix
     ./plugins/gitsigns.nix
     ./plugins/lsp.nix
+    ./plugins/lspsaga.nix
     ./plugins/metals.nix
     ./plugins/mini.nix
     ./plugins/neo-tree.nix

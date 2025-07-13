@@ -12,6 +12,10 @@
           group = "[C]ode";
         }
         {
+          __unkeyed-2 = "<leader>cs";
+          group = "[S]ymbol";
+        }
+        {
           __unkeyed-1 = "<leader>d";
           group = "[D]ocument";
         }
