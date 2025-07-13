@@ -30,10 +30,10 @@
 
     keymaps = {
       diagnostic = {
-        "<leader>q" = {
+        "<leader>cq" = {
           mode = "n";
           action = "setloclist";
-          desc = "Open diagnostic [Q]uickfix list";
+          desc = "Quickfix list";
         };
         "<leader>cd" = {
           action = "open_float";
@@ -75,7 +75,7 @@
           key = "<leader>csl";
           action.__raw = "require('telescope.builtin').lsp_document_symbols";
           options = {
-            desc = "[l]ocal search";
+            desc = "Local search";
           };
         }
         # Fuzzy find all the symbols in your current workspace.
@@ -84,7 +84,7 @@
           key = "<leader>csw";
           action.__raw = "require('telescope.builtin').lsp_dynamic_workspace_symbols";
           options = {
-            desc = "[w]orkspace search";
+            desc = "Workspace search";
           };
         }
       ];

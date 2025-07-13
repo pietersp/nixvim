@@ -118,5 +118,23 @@
         silent = true;
       };
     }
+    {
+      mode = "n";
+      key = "<leader>cti";
+      action = "<cmd>Lspsaga incoming_calls<CR>";
+      options = {
+        desc = "Incoming calls";
+        silent = true;
+      };
+    }
+    {
+      mode = "n";
+      key = "<leader>cto";
+      action = "<cmd>Lspsaga outgoing_calls<CR>";
+      options = {
+        desc = "Outgoing calls";
+        silent = true;
+      };
+    }
   ];
 }

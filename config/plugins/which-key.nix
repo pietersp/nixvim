@@ -16,20 +16,12 @@
           group = "[S]ymbol";
         }
         {
-          __unkeyed-1 = "<leader>d";
-          group = "[D]ocument";
-        }
-        {
-          __unkeyed-1 = "<leader>r";
-          group = "[R]ename";
+          __unkeyed-2 = "<leader>ct";
+          group = "[T]race";
         }
         {
           __unkeyed-1 = "<leader>s";
           group = "[S]earch";
-        }
-        {
-          __unkeyed-1 = "<leader>w";
-          group = "[W]orkspace";
         }
         {
           __unkeyed-1 = "<leader>t";
