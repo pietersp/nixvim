@@ -45,6 +45,13 @@
     shiftwidth = 2;
     expandtab = true;
 
+    # Use treesitter to allow smarter folding
+    foldmethod = "expr";
+    foldexpr = "v:lua.vim.treesitter.foldexpr()";
+    foldlevel = 99;
+    foldlevelstart = 99;
+    foldenable = true;
+
     # Enable mouse mode, can be useful for resizing splits for example!
     mouse = "a";
 
