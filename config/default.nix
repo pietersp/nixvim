@@ -3,6 +3,7 @@
   imports = [
     ./plugins/bufferline.nix
     ./plugins/conform.nix
+    ./plugins/nvim-colorizer.nix
     ./plugins/gitsigns.nix
     ./plugins/lsp.nix
     ./plugins/metals.nix
