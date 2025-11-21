@@ -2,19 +2,19 @@
   plugins.neo-tree = {
     enable = true;
 
-    filesystem = {
-      window = {
-        mappings = {
-          "\\" = "close_window";
-        };
-      };
-    };
+    # filesystem = {
+    #   window = {
+    #     mappings = {
+    #       "\\" = "close_window";
+    #     };
+    #   };
+    # };
   };
 
   keymaps = [
     {
       key = "\\";
-      action = "<cmd>Neotree reveal<cr>";
+      action = "<cmd>Neotree toggle<cr>";
       options = {
         desc = "NeoTree Toggle";
       };
