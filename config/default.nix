@@ -15,6 +15,7 @@
     ./plugins/todo-comments.nix
     ./plugins/treesitter.nix
     ./plugins/which-key.nix
+    ./plugins/octo.nix
   ];
 
   colorschemes = {
